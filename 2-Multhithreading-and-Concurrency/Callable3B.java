@@ -21,13 +21,9 @@ class Callable3B{
 
         endtime = System.currentTimeMillis();
 
-        //System.out.println(sum1 == randomInts.sum());
-
         System.out.println("Sum of random integers(Sequentially): " + sum1);
 
         System.out.println("Time taken in sequential stream: " + (endtime - starttime) + " ms");
-
-        //IntStream randomInts2 = random.ints(count,1, 345);
 
         start2 = System.currentTimeMillis();
 
@@ -35,7 +31,6 @@ class Callable3B{
 
         end2 = System.currentTimeMillis();
         System.out.println("Sum of random integers(Parallely): " + sum);
-
         System.out.println("Time taken in parallel stream: " + (end2 - start2) + " ms");
         System.out.println("Hello from Callable3B");
     }

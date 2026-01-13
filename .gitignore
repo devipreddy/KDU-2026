@@ -1,1 +1,84 @@
+# ===============================
+# Java / Maven
+# ===============================
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# ===============================
+# IDEs
+# ===============================
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# ===============================
+# OS
+# ===============================
+
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# ===============================
+# Logs & temp files
+# ===============================
+*.log
+logs/
+tmp/
+*.tmp
+
+# ===============================
+# Environment / secrets
+# ===============================
+.env
+.env.*
+application-local.yml
+application-dev.yml
+
+# ===============================
+# GitHub Actions runtime files
+# ===============================
+**/.github/**/*.log
+
+# ===============================
+# Node / frontend (if exists)
+# ===============================
+node_modules/
+dist/
+build/
+
+# ===============================
+# Sonar & CI junk
+# ===============================
+.scannerwork/
+sonar-report/
+
+# ===============================
+# Misc
+# ===============================
+*.swp
+*.bak
+*.old
+
